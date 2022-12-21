@@ -1,12 +1,16 @@
 /* Utils */
 
-.container {
+.big-container {
 	max-width: 1200px;
 	margin: 0 auto;
+	padding: 0 30px;
 }
 
 .clearfix::after {
 	content: '';
 	clear: both;
 	display: table;
+}
+.d-flex{
+    display: flex;
 }

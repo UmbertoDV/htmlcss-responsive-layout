@@ -1,0 +1,20 @@
+/* General */
+header{
+    background-color: #0084fd;
+}
+ul{
+    list-style: none;
+}
+
+/* Header */
+.all-header{
+    padding: 15px 0;
+    justify-content: space-between;
+    align-items: center;
+}
+.header-right ul > li{
+    display: inline-block;
+}
+
+/* Main */
+/* Demo Application Section */
