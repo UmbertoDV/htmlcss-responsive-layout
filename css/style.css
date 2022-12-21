@@ -71,7 +71,7 @@ ul{
 .testimonial .row{
     flex-direction: column;
     gap: 20px;
-    padding: 4rem 0;
+    padding: 3rem 0;
 }
 .testimonial .card{
     width: 100%;
@@ -84,10 +84,32 @@ ul{
     margin-top: 40px;
 }
 .testimonial .content-text > h3{
-    color: #99c1ea;
+    color: #9691e3;
     font-size: 3rem;
     margin: 20px 0;
 }
 .testimonial .content-text > p{
     font-size: 1.25rem;
+}
+
+/* Benefits / Fourth */
+.benefit{
+    background-color: #9691e3;
+}
+.benefit .row{
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+    padding: 50px 0;
+}
+.benefit .card{
+    width: calc(100% / 3 - 20px);
+    height: 400px;
+    border: 1px solid black;
+    border-radius: 20px;
+}
+.benefit h3{
+    padding-top: 3rem;
+    font-size: 2rem;
+    text-align: center;
 }

@@ -31,5 +31,14 @@
     .app-development{
         height: 100%;
     }
-    /* Testimonials / Third Section */
+    /* Benefits / Fourth */
+    .benefit .row{
+        flex-direction: column;
+    }
+    .benefit .card{
+        width: 100%;
+    }
+    .benefit{
+        height: 100%;
+    }
 }
