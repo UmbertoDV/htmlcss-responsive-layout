@@ -11,4 +11,7 @@
         max-width: 738px;
     }
     /* App Development Section / Second Section */
+    .app-development{
+        height: 100%;
+    }
 }
