@@ -66,3 +66,28 @@ ul{
     border-radius: 20px;
     align-self: flex-end;
 }
+
+/* Testimonials / Third Section */
+.testimonial .row{
+    flex-direction: column;
+    gap: 20px;
+    padding: 4rem 0;
+}
+.testimonial .card{
+    width: 100%;
+    height: 200px;
+    border: 1px solid black;
+    border-radius: 20px;
+}
+.testimonial .content-text{
+    text-align: center;
+    margin-top: 40px;
+}
+.testimonial .content-text > h3{
+    color: #99c1ea;
+    font-size: 3rem;
+    margin: 20px 0;
+}
+.testimonial .content-text > p{
+    font-size: 1.25rem;
+}
