@@ -15,7 +15,9 @@ ul{
 .header-right ul > li{
     display: inline-block;
 }
-
+.hambu-menu{
+    display: none;
+}
 /* Main */
 /* Demo Application Section */
 .demo-application{

@@ -1,0 +1,19 @@
+@media screen and (max-width: 480px) {
+    .big-container > .row.d-flex{
+        flex-direction: column;
+    }
+    .demo-application > .big-container{
+        max-width: 480px;
+    }
+    .big-container > .row.d-flex .big-card,
+    .big-container > .row.d-flex .card
+    {
+        width: 100%;
+    }
+    nav{
+        display: none;
+    }
+    .hambu-menu{
+        display: block;
+    }
+}
