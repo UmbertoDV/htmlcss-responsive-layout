@@ -24,8 +24,8 @@ ul{
 .row{
     flex-wrap: wrap;
     gap: 20px;
-    justify-content: space-between;
-    padding-top: 20px;
+    /* justify-content: space-between; */
+    padding-top: 50px;
 }
 .big-card{
     width: 66%;
