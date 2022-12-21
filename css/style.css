@@ -24,17 +24,17 @@ ul{
 .row{
     flex-wrap: wrap;
     gap: 20px;
-    /* justify-content: space-between; */
+    justify-content: center;
     padding-top: 50px;
 }
 .big-card{
-    width: 66%;
+    width: calc(100% * 2 / 3 - 20px);
     height: 350px;
     border: 1px solid black;
     border-radius: 20px;
 }
 .card{
-    width: calc(33% - 10px);
+    width: calc(100% / 3 - 20px);
     height: 350px;
     border: 1px solid black;
     border-radius: 20px;
