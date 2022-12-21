@@ -19,5 +19,6 @@
     }
     /* Benefits / Fourth */
     .benefit .card{
-        width: calc(100% / 2 - 20px);
+        width: calc(50% - 20px);
+    }
 }

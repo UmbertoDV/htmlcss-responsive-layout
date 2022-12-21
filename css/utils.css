@@ -10,6 +10,11 @@
 	margin: 0 auto;
 	padding: 0 30px;
 }
+.medium-container {
+	max-width: 1100px;
+	margin: 0 auto;
+	padding: 0 30px;
+}
 .clearfix::after {
 	content: '';
 	clear: both;
