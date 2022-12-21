@@ -1,19 +1,32 @@
 @media screen and (max-width: 480px) {
-    .big-container > .row.d-flex{
-        flex-direction: column;
-    }
-    .demo-application > .big-container{
-        max-width: 480px;
-    }
-    .big-container > .row.d-flex .big-card,
-    .big-container > .row.d-flex .card
-    {
-        width: 100%;
-    }
+    /* Header */
     nav{
         display: none;
     }
     .hambu-menu{
         display: block;
+    }
+    /* Demo Application Section / First Section */
+    .demo-application .row.d-flex{
+        flex-direction: column;
+    }
+    .demo-application > .big-container{
+        max-width: 480px;
+    }
+    .demo-application .row.d-flex .big-card,
+    .demo-application .row.d-flex .card
+    {
+        width: 100%;
+    }
+    .demo-application{
+        height: 100%;
+    }
+    /* App Development Section / Second Section */
+    .app-development .row{
+        flex-direction: column;
+    }
+    .app-development .row.d-flex .card
+    {
+        width: 100%;
     }
 }

@@ -5,7 +5,11 @@
 	margin: 0 auto;
 	padding: 0 30px;
 }
-
+.normal-container {
+	max-width: 900px;
+	margin: 0 auto;
+	padding: 0 30px;
+}
 .clearfix::after {
 	content: '';
 	clear: both;

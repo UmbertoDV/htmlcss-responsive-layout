@@ -1,11 +1,14 @@
 @media screen  and (max-width: 768px){
-    .demo-application > .big-container{
-        max-width: 738px;
-    }
+    /* Header */
     nav{
         display: none;
     }
     .hambu-menu{
         display: block;
     }
+    /* Demo Application Section / First Section */
+    .demo-application > .big-container{
+        max-width: 738px;
+    }
+    /* App Development Section / Second Section */
 }
