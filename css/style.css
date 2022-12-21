@@ -18,3 +18,19 @@ ul{
 
 /* Main */
 /* Demo Application Section */
+.row{
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+.big-card{
+    width: calc(66% - 10px);
+    height: 200px;
+    border: 1px solid black;
+}
+.card{
+    width: calc(33% - 10px);
+    height: 200px;
+    border: 1px solid black;
+}
