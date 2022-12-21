@@ -18,19 +18,24 @@ ul{
 
 /* Main */
 /* Demo Application Section */
+.demo-application{
+    height: calc(100vh - 73.5px);
+}
 .row{
     flex-wrap: wrap;
     gap: 20px;
     justify-content: space-between;
-    margin-top: 20px;
+    padding-top: 20px;
 }
 .big-card{
-    width: calc(66% - 10px);
-    height: 200px;
+    width: 66%;
+    height: 350px;
     border: 1px solid black;
+    border-radius: 20px;
 }
 .card{
     width: calc(33% - 10px);
-    height: 200px;
+    height: 350px;
     border: 1px solid black;
+    border-radius: 20px;
 }
