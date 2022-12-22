@@ -51,4 +51,8 @@
     .about-us h4{
         font-size: 1.5rem;
     }
+    .about-us .card.right .top-right-card > i{
+        top: 20px;
+        right: 0px;
+    }
 }
