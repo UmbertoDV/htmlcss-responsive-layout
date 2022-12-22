@@ -20,7 +20,7 @@ footer{
     padding: 15px 0;
     justify-content: space-between;
     align-items: center;
-    font-size: 1.2rem;
+    font-size: 1.1rem;
 }
 .header-right ul > li{
     display: inline-block;
@@ -51,16 +51,42 @@ footer{
     padding: 50px 0;
 }
 .demo-application .big-card{
+    background-color: #b5ddff;
     width: calc(100% * 2 / 3 - 20px);
-    height: 350px;
-    border: 1px solid black;
     border-radius: 20px;
+    padding: 0 10px;
+    height: 350px;
 }
 .demo-application .card{
     width: calc(100% / 3 - 20px);
     height: 350px;
     border: 1px solid black;
     border-radius: 20px;
+}
+.demo-application .big-card img{
+    height: 80%;
+    align-self: flex-end;
+}
+.demo-application .big-card.left.d-flex{
+    flex-direction: column;
+    justify-content: center;
+    gap: 3rem;
+}
+.demo-application .big-card.left button{
+    width: 200px;
+    background-color: #0084fd;
+    border-style: none;
+    border-radius: 20px;
+    padding: 10px 30px;
+    color: white;
+}
+.demo-application .big-card.left.d-flex h2{
+    font-size: 1.3rem;
+    font-weight: bold;
+    color: #0084fd;
+}
+.demo-application .big-card.left.d-flex p{
+    line-height: 2rem;
 }
 
 /* App Development Section / Second Section */
