@@ -211,6 +211,10 @@ footer{
 /* Benefits / Fourth */
 .benefit{
     background-color: #9691e3;
+}
+.benefit .big-container > h3{
+    color: white;
+    font-size: 3.5rem;
     text-align: center;
 }
 .benefit .row{
@@ -221,14 +225,31 @@ footer{
 }
 .benefit .card{
     width: calc(100% / 3 - 20px);
-    height: 400px;
-    border: 1px solid black;
     border-radius: 20px;
+    background-color: white;
+    padding: 1rem;
 }
 .benefit h3{
-    padding-top: 3rem;
-    font-size: 2rem;
-    text-align: center;
+    padding-top: 1rem;
+    font-size: 4rem;
+    font-weight: 600;
+    color: #9691e3;
+}
+.benefit h4{
+    margin: 1rem 0;
+    font-size: 1.5rem;
+    color: #9691e3;
+}
+.benefit button{
+    margin: 1rem 0;
+    font-size: 1rem;
+    background-color: #9691e3;
+    color: white;
+    border-style: none;
+    border-radius: 20px;
+    padding: 10px 40px;
+    margin-bottom: 1rem;
+    cursor: pointer;
 }
 
 /* About Us / Fifth Section */
