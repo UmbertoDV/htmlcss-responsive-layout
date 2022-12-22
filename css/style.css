@@ -180,6 +180,7 @@ footer{
 .testimonial .content-text > h3{
     color: #9691e3;
     font-size: 3rem;
+    font-weight: 600;
     margin: 20px 0;
 }
 .testimonial .content-text > p{

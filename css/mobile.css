@@ -44,6 +44,16 @@
     .benefit{
         height: 100%;
     }
+    /* Testimonials / Third Section */
+    .testimonial .card{
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .testimonial .card.d-flex .card-right{
+        text-align: center;
+        padding: 0 1rem;
+    }
     /* About Us / Fifth Section */
     .about-us .card.right.d-flex,
     .about-us .card.left
