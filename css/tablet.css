@@ -28,6 +28,10 @@
     .app-development{
         height: 100%;
     }
+    /* Testimonials / Third Section */
+    .testimonial .card.d-flex .card-left{
+        flex-basis: 120%;
+    }
     /* Benefits / Fourth */
     .benefit .card{
         width: calc(50% - 20px);
