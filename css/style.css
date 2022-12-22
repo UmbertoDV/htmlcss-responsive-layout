@@ -59,9 +59,24 @@ footer{
 }
 .demo-application .card{
     width: calc(100% / 3 - 20px);
-    height: 350px;
-    border: 1px solid black;
     border-radius: 20px;
+    text-align: center;
+    padding: 0 1.5rem;
+    background-color: #b5ddff;
+}
+.demo-application .card.d-flex{
+    flex-direction: column;
+    justify-content: center;
+    gap: 2rem;
+}
+.demo-application .card.d-flex > i{
+    color: #0084fd;
+    font-size: 6rem;
+}
+.demo-application .card.d-flex > h3{
+    color: #0084fd;
+    font-size: 1.5rem;
+    font-weight: 600;
 }
 .demo-application .big-card img{
     height: 80%;
@@ -101,20 +116,34 @@ footer{
     align-items: center;
     padding: 10rem 0;
 }
+.app-development .card > h3{
+    margin: 5rem 0;
+}
 .app-development .card{
     width: calc(100% / 2 - 20px);
-    height: 600px;
-    border: 1px solid black;
-    border-radius: 20px;
 }
-.app-development .mini-card{
+.app-development .mini-card.d-flex{
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+    
     width: 100%;
-    height: 450px;
-    border: 1px solid white;
+    padding: 20px 20px;
+    background-color: white;
     border-radius: 20px;
     align-self: flex-end;
+    text-align: center;
 }
-
+.app-development .mini-card > .circle{
+    border-radius: 50%;
+    width: 2rem;
+    height: 2rem;
+    line-height: 2rem;
+    vertical-align: middle;
+    color: black;
+    background-color: #9792e4;
+}
 /* Testimonials / Third Section */
 .testimonial .row{
     flex-direction: column;
