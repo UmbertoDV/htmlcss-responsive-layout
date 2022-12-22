@@ -1,5 +1,4 @@
 /* Utils */
-
 .big-container {
 	max-width: 1200px;
 	margin: 0 auto;
@@ -12,6 +11,16 @@
 }
 .medium-container {
 	max-width: 1100px;
+	margin: 0 auto;
+	padding: 0 30px;
+}
+.tiny-container {
+	max-width: 600px;
+	margin: 0 auto;
+	padding: 0 30px;
+}
+.footer-container {
+	max-width: 500px;
 	margin: 0 auto;
 	padding: 0 30px;
 }
