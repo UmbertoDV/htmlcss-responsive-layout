@@ -28,6 +28,13 @@
     .app-development{
         height: 100%;
     }
+    .app-development .row{
+        flex-direction: column;
+        align-items: center;
+    }
+    .app-development .card{
+        width: 100%;
+    }
     /* Testimonials / Third Section */
     .testimonial .card.d-flex .card-left{
         flex-basis: 120%;
