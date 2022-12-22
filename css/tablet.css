@@ -43,4 +43,12 @@
     .benefit .card{
         width: calc(50% - 20px);
     }
+    /* About Us / Fifth Section */
+    .about-us .card.right a{
+        padding: 5px 10px;
+
+    }
+    .about-us h4{
+        font-size: 1.5rem;
+    }
 }

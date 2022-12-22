@@ -63,4 +63,8 @@
     .about-us .row{
         flex-direction: column;
     }
+    .about-us .card.right .top-right-card > i{
+        top: 20px;
+        right: 210px;
+    }
 }
