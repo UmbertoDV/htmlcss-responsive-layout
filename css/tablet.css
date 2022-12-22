@@ -13,6 +13,17 @@
     .demo-application > .big-container{
         max-width: 738px;
     }
+    .demo-application .big-card{
+        flex-direction: column;
+    }
+    .demo-application .big-card.left.d-flex{
+        width: 100%;
+        gap: 1rem;
+        padding-top: 1.5rem;
+    }
+    .demo-application .big-card.right.d-flex{
+        flex-direction: row;
+    }
     /* App Development Section / Second Section */
     .app-development{
         height: 100%;

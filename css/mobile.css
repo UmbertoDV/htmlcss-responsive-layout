@@ -21,6 +21,9 @@
     .demo-application{
         height: 100%;
     }
+    .demo-application .big-card img{
+        padding-top: 1rem;
+    }
     /* App Development Section / Second Section */
     .app-development .row{
         flex-direction: column;

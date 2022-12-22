@@ -55,7 +55,7 @@ footer{
     width: calc(100% * 2 / 3 - 20px);
     border-radius: 20px;
     padding: 0 10px;
-    height: 350px;
+    /* height: 350px; */
 }
 .demo-application .card{
     width: calc(100% / 3 - 20px);
@@ -79,6 +79,7 @@ footer{
     border-radius: 20px;
     padding: 10px 30px;
     color: white;
+    cursor: pointer;
 }
 .demo-application .big-card.left.d-flex h2{
     font-size: 1.3rem;
