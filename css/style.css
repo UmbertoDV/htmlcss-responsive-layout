@@ -152,9 +152,9 @@ footer{
 }
 .testimonial .card{
     width: 100%;
-    height: 200px;
-    border: 1px solid black;
+    background-color: #9792e4;
     border-radius: 20px;
+    padding: 2rem 2rem;
 }
 .testimonial .content-text{
     text-align: center;
@@ -168,7 +168,28 @@ footer{
 .testimonial .content-text > p{
     font-size: 1.25rem;
 }
-
+.testimonial .card.d-flex .card-left{
+    flex-basis: 30%;
+}
+.testimonial .card.d-flex .card-right{
+    align-self: center;
+    color: white;
+    padding: 0 3rem;
+}
+.testimonial .card.d-flex .card-right > p {
+    margin: 2rem 0;
+    font-size: 1.2rem;
+}
+.testimonial .card.d-flex .card-right > .name {
+    font-size: 1.2rem;
+    font-weight: 600;
+}
+.testimonial .card.d-flex .card-left img{
+    border-radius: 50%;
+    object-fit: cover;
+    width: 200px;
+    height: 200px;
+}
 /* Benefits / Fourth */
 .benefit{
     background-color: #9691e3;
